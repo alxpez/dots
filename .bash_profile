@@ -1,12 +1,3 @@
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
-export MVN_PATH="/usr/local/bin"
-
-  export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
-
-
 function Color() {
   echo "\[$(tput setaf $1)\]"
 }
