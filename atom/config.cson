@@ -1,0 +1,67 @@
+"*":
+  "atom-clock":
+    showTooltip: true
+    tooltipDateFormat: "DD MMMM YYYY"
+  "atom-terminal":
+    surpressDirectoryArgument: false
+  "autocomplete-modules":
+    vendors: [
+      "node_modules"
+      "bower_modules"
+    ]
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "about"
+      "autocomplete-atom-api"
+      "bookmarks"
+      "metrics"
+      "styleguide"
+      "welcome"
+      "open-on-github"
+      "language-mustache"
+    ]
+    openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: []
+    restorePreviousWindowsOnStart: "always"
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "atom-dark-fusion-syntax"
+    ]
+    titleBar: "custom"
+  docblockr:
+    deep_indent: true
+    extend_double_slash: false
+  editor:
+    fontSize: 12
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "3fb96f7b-d165-473f-b10c-efaefd5ce7c6"
+  "file-icons": {}
+  "js-hyperclick":
+    jumpToImport: true
+  "language-babel":
+    autoIndentJSX: true
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+  "linter-ui-default":
+    panelHeight: 210.75
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "minimap-git-diff":
+    useGutterDecoration: true
+  "seti-icons":
+    noColor: true
+  welcome:
+    showOnStartup: false
+".js.jsx.source":
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
