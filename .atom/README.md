@@ -9,6 +9,7 @@ then you do from the command line on your new install
 
 > apm install --packages-file packages.list
 
-[Method 1](https://discuss.atom.io/t/how-to-backup-all-your-settings/15674/2)
-[Aternatives](https://discuss.atom.io/t/installed-packages-list-into-single-file/12227)
+[Source](https://discuss.atom.io/t/how-to-backup-all-your-settings/15674/2)
+
+[Aternative](https://discuss.atom.io/t/installed-packages-list-into-single-file/12227)
 
