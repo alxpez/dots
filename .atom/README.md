@@ -1,15 +1,18 @@
-# NOTES ON ATOM BACKUP
+# ATOM BACKUP
 
 You need only the **.json**, **.cson**, **.coffee** and **.less** files in the *~/.atom* folder, and a list of packages you had installed:
-run from command line on old install
 
-> apm list --installed --bare > packages.list
+> from command line of the old installation (EXPORT)
 
-then you do from the command line on your new install
+```zsh
+apm list --installed --bare > packages.list
+```
 
-> apm install --packages-file packages.list
+> from command line of the new installation (IMPORT)
 
-[Source](https://discuss.atom.io/t/how-to-backup-all-your-settings/15674/2)
+```zsh
+apm install --packages-file packages.list
+```
+---
 
-[Aternative](https://discuss.atom.io/t/installed-packages-list-into-single-file/12227)
-
+[Source](https://discuss.atom.io/t/how-to-backup-all-your-settings/15674/2) | [Aternative](https://discuss.atom.io/t/installed-packages-list-into-single-file/12227)
