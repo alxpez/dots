@@ -99,5 +99,5 @@ function Reset() {
   echo "\[$(tput sgr0)\]"
 }
 
-PROMPT_COMMAND='__git_ps1 "$(Color 5)\w$(Reset)" "\n$(Color 2)ᐅ $(Reset)"'
+PROMPT_COMMAND='__git_ps1 "\n$(Color 5)\w$(Reset)" "\n$(Color 2)ᐅ $(Reset)"'
 
